@@ -1,10 +1,10 @@
 <Query Kind="Statements" />
 
 int[,] array = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
-array.Dump();
+array.Dump("反轉前");
 
 int[,] newArray = ReverseArray(array);
-newArray.Dump();
+newArray.Dump("反轉後");
 
 
 static void PrintArray(int[,] pArray) {
